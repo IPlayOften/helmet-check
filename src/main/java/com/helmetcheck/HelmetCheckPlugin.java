@@ -14,7 +14,7 @@ import net.runelite.client.plugins.PluginDescriptor;
 
 @Slf4j
 @PluginDescriptor(
-	name = "Helmet Check"
+	name = "helmetcheck"
 )
 public class HelmetCheckPlugin extends Plugin
 {
@@ -41,7 +41,7 @@ public class HelmetCheckPlugin extends Plugin
 	{
 		if (gameStateChanged.getGameState() == GameState.LOGGED_IN)
 		{
-			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "Example says " + config.greeting(), null);
+			client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "Helmet Check says " + config.greeting(), null);
 		}
 	}
 

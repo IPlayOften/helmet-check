@@ -4,7 +4,7 @@ import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("example")
+@ConfigGroup("helmetcheck")
 public interface HelmetCheckConfig extends Config
 {
 	@ConfigItem(
@@ -14,6 +14,6 @@ public interface HelmetCheckConfig extends Config
 	)
 	default String greeting()
 	{
-		return "Hello";
+		return "Hello there.";
 	}
 }
